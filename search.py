@@ -7,7 +7,7 @@ parser.add_argument('search')
 args = parser.parse_args()
 # you can provide API key and CX using arguments,
 # or you can set environment variables: GCS_DEVELOPER_KEY, GCS_CX
-gis = GoogleImagesSearch('AIzaSyCvfdEQ48cKrJaWPaOr6vYECSEpG4HZeV0', '003703340549119879723:thxvoxkodau')
+gis = GoogleImagesSearch(GCS_DEVELOPER_KEY, GCS_CX)
 
 # define search params
 # option for commonly used search param are shown below for easy reference.
